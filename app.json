@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "react-API-UAS",
-    "slug": "react-API-UAS",
+    "slug": "react-API-UAS", 
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,16 +18,22 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sidik.UASPAMios",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+        "package": "com.sidik.UASPAMandro",
+        "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "",
+    "githubUrl": "https://github.com/SidikR/react-API-UAS.git"
   }
 }
